@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
         myargs[1] = strdup("p1.c"); // argument: file to count
         myargs[2] = NULL;           // marks end of array
         execvp(myargs[0], myargs);  // runs word count
-        printf("this shouldn't print out");
+        //printf("this shouldn't print out");
     }
     else
     {
